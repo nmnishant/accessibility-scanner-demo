@@ -10,6 +10,6 @@ jobs:
           urls: | 
             https://accessibility-scanner-demo.netlify.app/
             https://accessibility-scanner-demo.netlify.app/contact.html
-          repository: https://github.com/nmnishant-browserstack/accessibility-scanner-demo
+          repository: nmnishant/accessibility-scanner-demo
           token: ${{ secrets.GH_TOKEN }}
           cache_key: accessibility-scan-cache

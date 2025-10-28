@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Seedly — Simple Landing</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="card" role="main" aria-labelledby="hero-title">
+        <div class="left">
+            <div class="logo">Seedly</div>
+            <h1 id="hero-title">Get your ideas to grow</h1>
+
+
+            <p class="lead low-contrast-1">
+                Create, test, and launch beautiful micro-products — fast. Join creators who ship small experiments and
+                learn what works.
+            </p>
+
+            <div>
+                <button class="btn btn-primary" type="button">Start free</button>
+                <button class="btn btn-weak" type="button" style="margin-left:12px;">Book demo</button>
+            </div>
+
+            <div class="muted">No credit card — cancel any time.</div>
+
+            <div style="margin-top:22px;">
+                <strong>Why Seedly?</strong>
+                <ul style="margin:8px 0 0 18px;padding:0 4px 0 4px;">
+                    <li class="feature">Launch quickly</li>
+                    <li class="feature">Test with real users</li>
+                    <li class="feature">Iterate safely</li>
+                </ul>
+            </div>
+        </div>
+
+        <aside class="right" aria-label="Preview">
+            <div class="mock-image" role="img" aria-label="Preview image: dashboard mockup">
+                Dashboard preview (mock)
+            </div>
+
+            <div class="features" aria-hidden="false">
+                <div class="feature">Integrations</div>
+                <div class="feature">Insights</div>
+                <div class="feature">Automations</div>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        © <span id="year"></span> Seedly — Built with care.
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
